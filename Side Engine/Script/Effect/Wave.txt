@@ -1,0 +1,4 @@
+EntityRadius	45.0
+       	    use	    Pos              Sca    Rot     Cen    Alpha		 Texture adress				width  height  Type
+_body 	     1    0    0     0    1   1 1  0 0 0  0   0 0  1.0	   ./Image/Effect/Wave/Wave.dds			  	 90     90
+_attachment  0

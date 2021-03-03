@@ -1,0 +1,7 @@
+EntityRadius 0
+       	    use	      Pos       Sca    Rot     Cen    Alpha	Texture adress(Right)	     				width  height  Type
+_body 	     1     0    0   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/GrowthGauge/Gauge.dds		 620     35
+_attachment  4     0   -2   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/GrowthGauge/Gauge.dds		 620     35	0
+_attachment        0    0   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/GrowthGauge/Stick.dds		   6     25	1
+_attachment        0    0   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/GrowthGauge/Stick.dds		   6     25	2
+_attachment        0    0   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/GrowthGauge/Outline.dds		 620     35	3

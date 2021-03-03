@@ -1,0 +1,33 @@
+StartX			 0
+StartY			 0
+
+FirstData                0
+SecondData               0
+ThirdData                0
+
+FirstSecret		 0
+SecondSecret		 0
+
+FirstVacine		 8
+SecondVacine		 0
+
+DataParticle		 150
+
+CreateWall		 1
+CreateObstacle		 0
+
+NumObstacles             0
+MinObstacleRadius        0
+MaxObstacleRadius        0
+
+WorldWidth		 200
+WorldHeight		 200
+
+CellSizeX		 200
+CellSizeY		 200
+
+VacinePathNum		 0
+PathWaypointsNum	 0
+
+DataPathNum		 0
+PathWaypointsNum	 0

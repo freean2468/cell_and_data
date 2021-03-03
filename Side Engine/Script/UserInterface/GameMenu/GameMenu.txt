@@ -1,0 +1,6 @@
+EntityRadius 1
+       	    use	       Pos            Sca           Rot      Cen   Alpha  Texture adress(Right)      	        	       width   height   type
+_body 	     1    0     0    0    1   1   1  0   0   0    0    0 0  1.0	./Image/UserInterface/GameMenu/Window.dds		350     340
+_attachment  3    0    50    0    1   1   1  0   0   0    0    0 0  1.0	./Image/UserInterface/GameMenu/Retry.dds	        170      50	 0
+_attachment       0     0    0    1   1   1  0   0   0    0    0 0  1.0	./Image/UserInterface/GameMenu/Return.dds		190      50	-1
+_attachment       0   -50    0    1   1   1  0   0   0    0    0 0  1.0	./Image/UserInterface/GameMenu/Resume.dds		200      50	 2

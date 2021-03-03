@@ -1,0 +1,151 @@
+StartX			 0
+StartY			 -550
+
+FirstData                0
+SecondData               0
+ThirdData                0
+
+FirstSecret		 0
+SecondSecret		 0
+
+FirstVacine		 6
+SecondVacine		 0
+
+DataParticle		 600
+
+CreateWall		 1
+CreateObstacle		 0
+
+NumObstacles             0
+MinObstacleRadius        0
+MaxObstacleRadius        0
+
+WorldWidth		 200
+WorldHeight		 1200
+
+CellSizeX		 200
+CellSizeY		 200
+
+VacinePathNum		 20
+PathWaypointsNum	 2
+x			 -100
+y			 100
+x			 100
+y			 -100	
+
+PathWaypointsNum	 2
+x			 100
+y			 200
+x			 -100
+y			 200
+
+PathWaypointsNum	 2
+x			 100
+y			 150
+x			 -100
+y			 150
+
+PathWaypointsNum	 2
+x			 -100
+y			 -120
+x			 100
+y			 -120
+
+PathWaypointsNum	 2
+x			 -60
+y			 330
+x			 60
+y			 330
+
+PathWaypointsNum	 2
+x			 -60
+y			 0
+x			 60
+y			 0
+
+PathWaypointsNum	 2
+x			 0
+y			 -250
+x			 80
+y			 -250
+
+PathWaypointsNum	 2
+x			 10
+y			 300
+x			 80
+y			 300
+
+PathWaypointsNum	 2
+x			 -80
+y			 300
+x			 0
+y			 300
+
+PathWaypointsNum	 2
+x			 -80
+y			 -170
+x			 30
+y			 -170
+
+PathWaypointsNum	 2
+x			 -100
+y			 400
+x			 -10
+y			 400	
+
+PathWaypointsNum	 2
+x			 100
+y			 500
+x			 -100
+y			 500
+
+PathWaypointsNum	 2
+x			 -100
+y			 -400
+x			 -100
+y			 0
+
+PathWaypointsNum	 2
+x			 -100
+y			 120
+x			 -100
+y			 420
+
+PathWaypointsNum	 2
+x			 -60
+y			 330
+x			 -60
+y			 -330
+
+PathWaypointsNum	 2
+x			 60
+y			 200
+x			 60
+y			 500
+
+PathWaypointsNum	 2
+x			 0
+y			 400
+x			 0
+y			 -400
+
+PathWaypointsNum	 2
+x			 50
+y			 -500
+x			 50
+y			 0
+
+PathWaypointsNum	 2
+x			 80
+y			 -300
+x			 80
+y			 300
+
+PathWaypointsNum	 2
+x			 -80
+y			 -350
+x			 -30
+y			 350
+
+DataPathNum		 0
+PathWaypointsNum	 0

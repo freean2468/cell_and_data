@@ -1,0 +1,43 @@
+NumSamplesForSmoothing   0
+
+
+SteeringForceTweaker     0
+
+SteeringForce            0
+MaxSpeed                 0
+VehicleMass              0
+VehicleScale             0
+
+SeparationWeight          0
+AlignmentWeight           0
+CohesionWeight            0
+ObstacleAvoidanceWeight   0
+WallAvoidanceWeight       0
+WanderWeight              0
+SeekWeight                0
+FleeWeight                0
+ArriveWeight              0
+PursuitWeight             0
+OffsetPursuitWeight       0
+InterposeWeight           0
+HideWeight                0
+EvadeWeight               0
+FollowPathWeight          0
+
+ViewDistance              0
+
+MinDetectionBoxLength     0
+
+WallDetectionFeelerLength 0
+
+prWallAvoidance       	    0
+prObstacleAvoidance         0
+prSeparation                0
+prAlignment                 0
+prCohesion                  0
+prWander                    0
+prSeek                      0
+prFlee                      0
+prEvade                     0
+prHide                      0
+prArrive                    0

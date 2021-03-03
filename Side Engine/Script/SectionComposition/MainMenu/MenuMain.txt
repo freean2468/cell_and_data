@@ -1,0 +1,7 @@
+EntityRadius 1
+       	    use	       Pos            Sca           Rot      Cen   Alpha  Texture adress(Right)      	        	       width   height   type
+_body 	     1    0     0    0    1   1   1  0   0   0    0    0 0  1.0	./Image/Empty/Empty.dds			                  1       1
+_attachment  4 -200    10    0    1   1   1  0   0   0    0    0 0  1.0	./Image/SectionComposition/MainMenu/Scenario.dds	310      50	 0
+_attachment    -175   -50    0    1   1   1  0   0   0    0    0 0  1.0	./Image/SectionComposition/MainMenu/Extra.dds		260      50	 1
+_attachment    -132  -110    0    1   1   1  0   0   0    0    0 0  1.0	./Image/SectionComposition/MainMenu/Credit.dds		180      50	 2
+_attachment    -112  -170    0    1   1   1  0   0   0    0    0 0  1.0	./Image/SectionComposition/MainMenu/Exit.dds		140      50	 3

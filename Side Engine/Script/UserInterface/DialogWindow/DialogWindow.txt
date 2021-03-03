@@ -1,0 +1,4 @@
+EntityRadius 0
+       	    use	      Pos       Sca    Rot     Cen    Alpha	Texture adress(Right)	     				width  height  Type
+_body 	     1     0    0   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/DialogWindow/DialogMainFrame.dds	 500    230
+_attachment  1   -70   -1   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/DialogWindow/DialogWindow.dds 	 330    200     0

@@ -1,0 +1,1522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="etc">
+      <UniqueIdentifier>{4046627c-f265-4a56-914c-4f3ae8490314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures">
+      <UniqueIdentifier>{ddb836d6-4a67-4a52-8325-ec26083a29d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Array">
+      <UniqueIdentifier>{f45f3516-79e0-4c3a-9804-ffd770170347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Bitvector">
+      <UniqueIdentifier>{eacf886b-2636-4e57-aa17-f2d4c98e73c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Graph">
+      <UniqueIdentifier>{39526ef6-d7ff-491b-8da2-e0fcf08d945b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Hash Table">
+      <UniqueIdentifier>{28091484-da8c-4507-81d9-77978b8465c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Linked List">
+      <UniqueIdentifier>{899274b3-d2dc-48e1-a213-9220dcf7bdf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Queue">
+      <UniqueIdentifier>{99026e81-b987-4369-9609-38d8708f7c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Stack">
+      <UniqueIdentifier>{44a71703-3cc6-42b4-81e1-1a9622e09696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Tree">
+      <UniqueIdentifier>{ec1caeac-55eb-4353-919c-ede03ee883dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Manager">
+      <UniqueIdentifier>{f12cbac7-abe3-4fa4-95e2-2eff653ea211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{c8166136-95a4-4a3b-b62a-d3fcb3d14c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Event">
+      <UniqueIdentifier>{c49631c2-e7f2-46d6-8e46-081b2b5e6ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section">
+      <UniqueIdentifier>{3940396f-8604-4270-bf17-2c8e6693ae5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Event\Composition">
+      <UniqueIdentifier>{a70fdf1a-1533-43ce-b6a4-b761af38de36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Event\Manager">
+      <UniqueIdentifier>{0e187073-03b5-49e4-a9a4-adcda8479f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition">
+      <UniqueIdentifier>{e8d648bb-1293-4334-aaec-7da0331fdff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\Credit">
+      <UniqueIdentifier>{d775949d-6cfc-4300-b95e-95a2432f1f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\Loading">
+      <UniqueIdentifier>{caa0a488-7add-4c3d-a897-ff6172685752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\Logo">
+      <UniqueIdentifier>{8450d18e-d1c4-4dac-9694-f0d33fb7d4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\MainMenu">
+      <UniqueIdentifier>{589501d6-b5ce-45ec-9b21-3817782c7dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\Rank">
+      <UniqueIdentifier>{e026fbfc-d136-4cb4-88a3-c012baa3d749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\Credit\States">
+      <UniqueIdentifier>{49ccdb6f-8b29-46ee-b054-68797416dc51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\Loading\States">
+      <UniqueIdentifier>{419ce3db-f23d-441c-8618-7e242b90e213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\Logo\States">
+      <UniqueIdentifier>{a91492e0-6f47-4467-966d-443480890b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\MainMenu\States">
+      <UniqueIdentifier>{cf38541c-492c-48a7-adec-a0b45c41b14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Manager">
+      <UniqueIdentifier>{9f80a039-aef7-49f5-8da3-2a86cd38be96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\States">
+      <UniqueIdentifier>{a9b5c5ab-944e-4a9c-98dd-c82d954e3ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math &amp; Physics">
+      <UniqueIdentifier>{87b35d45-4fd9-4d59-8b0a-9f42302e7f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math &amp; Physics\Geometry">
+      <UniqueIdentifier>{7ee6178a-f31b-4e6b-bab6-c7feee25acf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math &amp; Physics\Manager">
+      <UniqueIdentifier>{8fe7912b-fe6c-4733-9f58-2c5aaa8303d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math &amp; Physics\Matrix">
+      <UniqueIdentifier>{f7049d40-cc88-4b97-b964-92f6ef0a4d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math &amp; Physics\Rectangle">
+      <UniqueIdentifier>{8798a615-91a9-4dfe-9216-391fafdbb171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math &amp; Physics\Transformation">
+      <UniqueIdentifier>{655ca959-5388-42c5-9655-6b7e17f6cf8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math &amp; Physics\Vector2D">
+      <UniqueIdentifier>{337a4d9a-7ade-4131-be60-918c258704f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{d80c68b8-0cec-4245-abf4-ca1889460f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Box3D">
+      <UniqueIdentifier>{c28bdca1-4e21-47e9-9039-c65fbaa351a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\CellSpaceOfPartition">
+      <UniqueIdentifier>{965fee2c-add6-4eae-90f8-81182c071bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Cgdi">
+      <UniqueIdentifier>{69110f92-43aa-4cce-afc3-a425ca20e367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Smoother">
+      <UniqueIdentifier>{6ba638ba-91c6-4365-8cf3-40d223f281eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Utils">
+      <UniqueIdentifier>{729c2d0e-c7dc-4306-b4b6-e65d94040a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{71defa06-7bed-481a-9f0b-c1b5680d0318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{a55acc1f-3e5b-4939-a93e-0f4ea3eff5c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\App &amp; Wnd">
+      <UniqueIdentifier>{312e61d6-fb10-434b-b8aa-5b3db380c0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Camera">
+      <UniqueIdentifier>{400b94c6-371a-47b3-8939-700b02ede98e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Camera\Manager">
+      <UniqueIdentifier>{8ee29dba-d90c-48f5-83a8-d97e5f14f171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Collision">
+      <UniqueIdentifier>{b42ab2b1-faea-4529-96be-ab2a5ef5f729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Collision\Manager">
+      <UniqueIdentifier>{bff6bf64-5782-4867-bb19-1a9dbb3dec21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Define">
+      <UniqueIdentifier>{4b295b67-5917-4015-97d0-8b5a6209886b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Effects">
+      <UniqueIdentifier>{e5f9c96e-1edf-4fe0-b691-3337f462e2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Effects\Base">
+      <UniqueIdentifier>{ef570ce9-e651-4cec-b85c-a5a0fbc08080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Effects\Manager">
+      <UniqueIdentifier>{06f32e2d-ea59-49e6-9c67-444bca298d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Effects\Type">
+      <UniqueIdentifier>{76aeb18e-dad1-4ea5-a2d7-ff021dec5d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\File">
+      <UniqueIdentifier>{b55ae445-b557-44c2-8bf8-9854479674b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Information">
+      <UniqueIdentifier>{dac3f98d-6ea1-4576-a16a-3f28d31004d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Loader">
+      <UniqueIdentifier>{8e391274-6c5a-4bf7-b7c3-ec573796cf92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Loader\Base">
+      <UniqueIdentifier>{86044357-414b-4f38-899b-3843c080a127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Loader\Drived">
+      <UniqueIdentifier>{00a705d2-f060-4884-895b-66e12600aec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Loader\Drived\Paramater">
+      <UniqueIdentifier>{ab4535ca-c6a2-41c3-8e82-30de4a09f3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Loader\Drived\Script">
+      <UniqueIdentifier>{04dacbb5-a7c9-473b-9466-23bae41c6dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Mouse">
+      <UniqueIdentifier>{e9b0f762-46d2-4970-9297-7ac95e2b5884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Mouse\Manager">
+      <UniqueIdentifier>{522324f2-be91-49ec-b853-750ecdda8420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle">
+      <UniqueIdentifier>{8ad39b3c-751f-482a-8d89-5e4494440c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Base">
+      <UniqueIdentifier>{fc5f8710-d3a5-4265-9f02-4cd50e9b4f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Drived">
+      <UniqueIdentifier>{21529df8-5029-46f9-ba82-fe198b7db3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Drived\Data">
+      <UniqueIdentifier>{7446292a-0dd2-4804-a266-c0d711c0c919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Drived\Dirt">
+      <UniqueIdentifier>{ee610198-fc79-4d8c-8cf0-a4d3a40f2929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Drived\Exhaust">
+      <UniqueIdentifier>{28b42d9c-03a7-4c61-bf9d-c75021c671b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Drived\FireWork">
+      <UniqueIdentifier>{06bdbaa2-36d7-4cd7-b7ac-82c6700125ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Drived\Gun">
+      <UniqueIdentifier>{a2ecf7d2-deba-4454-89a9-08d7f303083e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Drived\Kindling">
+      <UniqueIdentifier>{8c5affd6-b1dd-4f70-b412-c1f854bf3d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Drived\Snow">
+      <UniqueIdentifier>{44fcfb02-ccc7-4406-87d4-824457ed26a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Manager">
+      <UniqueIdentifier>{b4926180-8fe8-40c4-ba5f-d158044f8564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Sound">
+      <UniqueIdentifier>{41fa830d-3d96-47f4-a64c-1a3558678a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Sound\MP3">
+      <UniqueIdentifier>{0611d5ac-0a11-40d2-96ab-0a239561d05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Sound\Wave">
+      <UniqueIdentifier>{f42d6ccb-bd39-4400-9823-7b447f255b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Sound\MP3\Manager">
+      <UniqueIdentifier>{34b0ed17-6ed2-4a75-94b3-5a1899296c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Sound\Wave\Manager">
+      <UniqueIdentifier>{1d10d327-afbe-4740-a935-cd1c94fd5d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\State">
+      <UniqueIdentifier>{3d814991-4d6f-47bc-bc6e-a8dfb6c9a892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\SystemFrame">
+      <UniqueIdentifier>{26f2262a-5f5d-4a9a-a2f1-54697beadaa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Text">
+      <UniqueIdentifier>{7e4a466b-cc13-46f0-879d-986506cc4a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Text\States">
+      <UniqueIdentifier>{84b47487-cc04-4018-8d30-2127c377cbd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor">
+      <UniqueIdentifier>{b9dfe2aa-ab8e-4e09-a7fa-d1707a0ea8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\World">
+      <UniqueIdentifier>{98ace77d-49a1-4d9e-b62a-c5d10cb09b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\World\Base">
+      <UniqueIdentifier>{27cd2141-67b5-475b-82d9-ddf726415123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\World\Manager">
+      <UniqueIdentifier>{c76ce207-7994-46bc-8d23-b4ff79e195be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface">
+      <UniqueIdentifier>{b82b6dea-cc63-44ee-b3c6-17b79198a4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\CheckWindow">
+      <UniqueIdentifier>{6179dfd1-06f9-4684-8d7b-394396e6cceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\CheckWindow\States">
+      <UniqueIdentifier>{89535ac7-25c4-49a9-9a5b-acf9e6e164ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\DialogWindow">
+      <UniqueIdentifier>{4da3f077-bfc0-4fcc-ab65-4d5fe64782b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\DialogWindow\States">
+      <UniqueIdentifier>{fdb82f62-2480-4cef-846f-7a62f62e6459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\Manager">
+      <UniqueIdentifier>{c71f803c-679d-45ad-83dd-ae0075fa900d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\MessageWindow">
+      <UniqueIdentifier>{8a36d1d3-5115-427e-98ea-dc8444f23569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\MessageWindow\States">
+      <UniqueIdentifier>{5dfea307-8c98-4b1a-bcbe-678802d240d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\Number">
+      <UniqueIdentifier>{07a3f6e8-9e64-47c2-b45d-c37329e48a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\Number\States">
+      <UniqueIdentifier>{d36feada-8e7b-441f-acbb-934aabb25fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\Number\Container">
+      <UniqueIdentifier>{a5aed850-cb4b-4426-aecf-e14653be6e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\TextOfGame">
+      <UniqueIdentifier>{333f14ee-0203-4ff2-aa2c-290de6080d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\TextOfGame\States">
+      <UniqueIdentifier>{7706b861-b2d4-4163-a0dd-c48ace0aa550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\GameMenu">
+      <UniqueIdentifier>{df013913-76a9-4cd8-ad5d-3ef21f2d9594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\GameMenu\States">
+      <UniqueIdentifier>{e7723c28-325d-4019-933c-ab74aff182df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents">
+      <UniqueIdentifier>{d797eed6-bdbf-4996-aa62-414abd46bf49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Basic Composition">
+      <UniqueIdentifier>{0ab2b26b-0832-4938-9fa8-fc50f980ebfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Basic Composition\Obstacle">
+      <UniqueIdentifier>{2b4dca20-72de-4c01-b159-56d5bc05d096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Basic Composition\Wall3D">
+      <UniqueIdentifier>{626860df-ec1a-4243-a94e-5d14799c01b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Basic Composition\Path">
+      <UniqueIdentifier>{05a9c30b-d777-40e9-9575-9b89cc74df77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\Growth">
+      <UniqueIdentifier>{3efac3fd-c2f0-43bb-baee-29ca54a2b9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\Gauge">
+      <UniqueIdentifier>{df6470db-5807-4397-b905-414a9b7445ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\Gauge\States">
+      <UniqueIdentifier>{6b8b49e3-8701-47e4-9762-b4ea423bccea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Effects\Drived">
+      <UniqueIdentifier>{be4dc2ed-e6c6-457c-b6e9-0aa45258191c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Drived\Spread">
+      <UniqueIdentifier>{a107eed0-5c8f-44d9-856a-77bad9ec8529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity">
+      <UniqueIdentifier>{242cb5b2-c885-48e4-896e-0d9414daa80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity">
+      <UniqueIdentifier>{147159c2-d728-4dc7-b630-1c64b91dd08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Base">
+      <UniqueIdentifier>{45460d3b-0ee4-4ad3-a225-29faadd75b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived">
+      <UniqueIdentifier>{f848f45a-47d2-49b1-91bb-f2cc05523990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity">
+      <UniqueIdentifier>{3bb0b5ab-f53f-4403-9440-8f1dfa7d4beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Base">
+      <UniqueIdentifier>{aa90c505-1fd9-4f22-943c-eea4612d6908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived">
+      <UniqueIdentifier>{6e833230-fad4-4b81-8244-b4be8a4a7bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\EntityFuntionTemplates">
+      <UniqueIdentifier>{72a4abf4-c5f0-408d-aff3-c364d358a527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\Manager">
+      <UniqueIdentifier>{f87d4b03-56d7-4393-8014-cb0c43b867e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\Type">
+      <UniqueIdentifier>{c45d6bb5-ab68-4227-aa96-586bfb012fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity">
+      <UniqueIdentifier>{bb50aec8-365f-4e00-9e97-12101b0250e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Base">
+      <UniqueIdentifier>{1ecd965c-f2e7-4e85-85bb-f7df81ca3c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived">
+      <UniqueIdentifier>{928d9fe9-810d-4148-9c5f-a05bdba5ee2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\Organ">
+      <UniqueIdentifier>{faf06f24-790e-419c-9da1-2843e8e3afe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\Organ\Base">
+      <UniqueIdentifier>{fc4ffc12-3d06-4b1a-a7d4-c0b5a7ee4ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\Organ\Drived">
+      <UniqueIdentifier>{44c2ea59-3f5b-4e2f-920d-d028647266df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\Organ\Drived\Attachment">
+      <UniqueIdentifier>{309c38ae-fba6-44c9-9c8a-77920c19990d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\Organ\Drived\Body">
+      <UniqueIdentifier>{a474e819-f406-4fdf-93a5-6b040589743d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity">
+      <UniqueIdentifier>{7d0c4296-46ef-4256-abe5-6c68d9b20361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Base">
+      <UniqueIdentifier>{6e6bc5d4-aabf-4440-bbe1-2bb00ee9aa45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived">
+      <UniqueIdentifier>{0a9f9377-82ba-418e-83d7-d18041bd86e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity">
+      <UniqueIdentifier>{e5ffee68-d0d3-4a7a-87a6-38ee931126ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Base">
+      <UniqueIdentifier>{cc911413-3d13-49cd-93d9-aa59995c0dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\LineEntity">
+      <UniqueIdentifier>{0e6d405a-344a-42ba-8cb1-c0147cd8dcd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\LineEntity\Base">
+      <UniqueIdentifier>{0a5cc135-4f0b-4c28-b73e-eca15dc1a5de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity">
+      <UniqueIdentifier>{120524cb-069d-4511-9cb1-2e7098af20fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\MyString">
+      <UniqueIdentifier>{2045217c-1ecd-4f42-9539-a2317d4fba43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Utils\DirectX">
+      <UniqueIdentifier>{30ff502c-f654-47f9-a8c3-b98030c3eef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Utils\Window">
+      <UniqueIdentifier>{b07c6a15-b207-4c5f-8e7a-ba1c0b275c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Utils\Stream">
+      <UniqueIdentifier>{ffac7431-14fb-41af-bd16-faf4f643353c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Utils\Number">
+      <UniqueIdentifier>{be91785f-5b62-4ec1-8855-6ef08a499e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Gravity">
+      <UniqueIdentifier>{a6b4d77d-d8d6-4e03-bcb3-3808800a9716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive">
+      <UniqueIdentifier>{58b20d04-43fd-4f5d-a59e-32b46b0bb6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\PlanetEntity">
+      <UniqueIdentifier>{8723424d-39ad-4f9e-a08d-d4c39580d65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\PlanetEntity\Base">
+      <UniqueIdentifier>{5ad29b73-5234-47b8-b41b-255577e81010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Drived\Leaf">
+      <UniqueIdentifier>{599fe6e7-d5bf-40eb-9847-7084f060f1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle\Drived\GetSmaller">
+      <UniqueIdentifier>{4fdd40d6-59c6-4809-8324-2be3160f8684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Event\Composition\EventMainState">
+      <UniqueIdentifier>{9bbd8d9e-44f7-4863-96df-bd07194cac94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Event\Composition\EventSubStates">
+      <UniqueIdentifier>{29bc3018-2646-4a0e-8846-2bc2ba1436bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\State\MessageManager">
+      <UniqueIdentifier>{81d109ae-2cf8-4e95-ba06-0dffaee54876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\State\MessageManager\Telegram">
+      <UniqueIdentifier>{355a3ea6-956d-4ab7-b0a7-e70d89863c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\PlanetEntity\Base\States">
+      <UniqueIdentifier>{f6b40e81-d606-44fa-8442-e36270402091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\Ending">
+      <UniqueIdentifier>{df82ede6-b403-49c7-9c46-be05bdc8c8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\Ending\States">
+      <UniqueIdentifier>{8a23a471-6f36-4aec-8804-9c18c7e31ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\Vehicle">
+      <UniqueIdentifier>{dfe33386-2436-4000-8cc8-15fbf557099f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\Vehicle\SteeringBehavior">
+      <UniqueIdentifier>{2335c342-4176-4338-ae3c-caac06c01806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Loader\Drived\Paramater\Steering">
+      <UniqueIdentifier>{a7109374-04cd-49b6-95f4-19109e2dbec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Loader\Drived\Paramater\Map">
+      <UniqueIdentifier>{b22f3921-d982-4a4c-adfc-227a5216e620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Loader\Drived\Paramater\Base">
+      <UniqueIdentifier>{78aec4d2-70e2-4ea9-93bd-9031f57c4854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\Byte">
+      <UniqueIdentifier>{42bda5f2-768e-4ec6-aa88-f9a7460fd88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\Byte\States">
+      <UniqueIdentifier>{ce78ff73-f469-4400-a095-2b7f6ffd88a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Controller">
+      <UniqueIdentifier>{9ba34d99-fa7a-479d-b23e-56afaada3c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\Bus">
+      <UniqueIdentifier>{5b5623ae-847e-4973-96a5-ae42143ebd10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\Bus\States">
+      <UniqueIdentifier>{465012a9-f370-4f00-9e03-8167726cb895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\Infection">
+      <UniqueIdentifier>{9f364cde-fd69-4f45-8e82-193bb903f7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\Wave">
+      <UniqueIdentifier>{5dee0c31-16b6-44e8-89f5-aab823d4c809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\Wave\States">
+      <UniqueIdentifier>{de3dcca0-52f2-4a2f-9bad-75714659c934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\Infection\States">
+      <UniqueIdentifier>{9ba941c5-6b8d-46de-b695-eeb43a87951b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity\Cell">
+      <UniqueIdentifier>{aeb182b6-7962-4d2a-adf5-ed89487ed6af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity\Cell\Base">
+      <UniqueIdentifier>{35643d63-7772-42a8-9d4e-27b61d69806f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity\Cell\Drived">
+      <UniqueIdentifier>{ffb56320-9d13-44a0-b755-faab2fc30b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity\Cell\Drived\Data">
+      <UniqueIdentifier>{7fee5782-1f03-4b6b-bd3e-5b2aaaa05ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity\Cell\Drived\Data\States">
+      <UniqueIdentifier>{2a677e4d-47cb-462d-95cf-e1c22ca15218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity\Cell\Drived\Virus">
+      <UniqueIdentifier>{d0410313-fa0d-4efe-9e82-7341d9a4862b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity\Cell\Drived\Virus\States">
+      <UniqueIdentifier>{b94a1478-efcb-4264-9c0c-e843b8346c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity\Cell\Drived\Vacine">
+      <UniqueIdentifier>{e0cd20de-6184-4b85-8562-df1bc441ac7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity\Cell\Drived\Vacine\States">
+      <UniqueIdentifier>{df0ca3bf-3eb8-46a5-a434-7199ff51fb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity\SecretData">
+      <UniqueIdentifier>{ffc60627-cba8-4439-9cb7-e73e243ab208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Entity\SecretData\States">
+      <UniqueIdentifier>{0781b02d-52e4-43fa-994b-45b2cf93e4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\Ability">
+      <UniqueIdentifier>{2cef2b54-4f59-4c41-a7ca-b1ca350a20a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\Ability\States">
+      <UniqueIdentifier>{e0e9cb4a-448c-4c41-926e-2a6ea7ac7612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\DataBomb">
+      <UniqueIdentifier>{0085f0f0-6a57-41fd-97ad-ba559acd8af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\BreakHeart">
+      <UniqueIdentifier>{671e9606-cd6e-4586-b98a-4b71ad5822e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\Contents\BreakHeart\States">
+      <UniqueIdentifier>{3c2d5ac0-9ab7-45ad-a02e-58d1b297ad13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\Arrow">
+      <UniqueIdentifier>{515408b9-5f44-4728-8066-37bab7384a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\OST">
+      <UniqueIdentifier>{6c901b34-44b1-47a2-aa82-05d6f3e2b130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Time">
+      <UniqueIdentifier>{d0269e91-8685-4b8d-a955-29473b5f7d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Time\Manager">
+      <UniqueIdentifier>{17eb48f4-2d26-4bab-8755-1b3fa84da0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Composition\Rank\States">
+      <UniqueIdentifier>{ad8f96d9-0f40-418b-91d3-1e7056e295b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\InputWindow">
+      <UniqueIdentifier>{05baafe6-0b8e-4d9d-a8d1-c90eab35f0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Factor\UserInterface\InputWindow\States">
+      <UniqueIdentifier>{807dc824-04e7-492d-9bad-6e89a4159e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\std">
+      <UniqueIdentifier>{dcc30565-3e3d-4c5b-b157-6d52241020a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Log">
+      <UniqueIdentifier>{8dfb137a-007c-48cc-9783-3ebe59d0516e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BaseHeader.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\AQueue.h">
+      <Filter>Data Structures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\Array.h">
+      <Filter>Data Structures\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\Array3D.h">
+      <Filter>Data Structures\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\Array2D.h">
+      <Filter>Data Structures\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\AStack.h">
+      <Filter>Data Structures\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\BinarySearchTree.h">
+      <Filter>Data Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\BinaryTree.h">
+      <Filter>Data Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\Bitvector.h">
+      <Filter>Data Structures\Bitvector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\DLinkedList.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\DListNode.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\DListIterator.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\Graph.h">
+      <Filter>Data Structures\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\GraphNode.h">
+      <Filter>Data Structures\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\GraphArc.h">
+      <Filter>Data Structures\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\HashEntry.h">
+      <Filter>Data Structures\Hash Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\HashTable.h">
+      <Filter>Data Structures\Hash Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\HashFuntion.h">
+      <Filter>Data Structures\Hash Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\Heap.h">
+      <Filter>Data Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\LStack.h">
+      <Filter>Data Structures\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\LQueue.h">
+      <Filter>Data Structures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\SLinkedList.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\SListNode.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\SListIterator.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\Tree.h">
+      <Filter>Data Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\TreeIterator.h">
+      <Filter>Data Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\EngineManager.h">
+      <Filter>Engine Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\EventManager.h">
+      <Filter>Logic\Event\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\Credit.h">
+      <Filter>Logic\Section\Composition\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\CreditOwnedStates.h">
+      <Filter>Logic\Section\Composition\Credit\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\Loading.h">
+      <Filter>Logic\Section\Composition\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\LoadingOwnedStates.h">
+      <Filter>Logic\Section\Composition\Loading\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\Logo.h">
+      <Filter>Logic\Section\Composition\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\LogoOwnedStates.h">
+      <Filter>Logic\Section\Composition\Logo\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\MainMenu.h">
+      <Filter>Logic\Section\Composition\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\MainMenuOwnedStates.h">
+      <Filter>Logic\Section\Composition\MainMenu\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\SectionManager.h">
+      <Filter>Logic\Section\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\Section.h">
+      <Filter>Logic\Section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Math&amp;Physics\Geometry.h">
+      <Filter>Math &amp; Physics\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Math&amp;Physics\MathManager.h">
+      <Filter>Math &amp; Physics\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Math&amp;Physics\Matrix3X3.h">
+      <Filter>Math &amp; Physics\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Math&amp;Physics\Rectangle.h">
+      <Filter>Math &amp; Physics\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Math&amp;Physics\Transformation.h">
+      <Filter>Math &amp; Physics\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Math&amp;Physics\Vector2D.h">
+      <Filter>Math &amp; Physics\Vector2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Misc\Box3D.h">
+      <Filter>Misc\Box3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Misc\CellSpaceOfPartition.h">
+      <Filter>Misc\CellSpaceOfPartition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Misc\Cgdi.h">
+      <Filter>Misc\Cgdi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Misc\Smoother.h">
+      <Filter>Misc\Smoother</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\App.h">
+      <Filter>System\App &amp; Wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Wnd.h">
+      <Filter>System\App &amp; Wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Camera.h">
+      <Filter>System\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\CameraManager.h">
+      <Filter>System\Camera\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\CollisionManager.h">
+      <Filter>System\Collision\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\dsutil.h">
+      <Filter>Misc\Utils\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\dxutil.h">
+      <Filter>Misc\Utils\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\BaseEffect.h">
+      <Filter>System\Effects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\EffectManager.h">
+      <Filter>System\Effects\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\EffectType.h">
+      <Filter>System\Effects\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\FileStream.h">
+      <Filter>System\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Information.h">
+      <Filter>System\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\FileLoaderBase.h">
+      <Filter>System\Loader\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\ScriptLoader.h">
+      <Filter>System\Loader\Drived\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\MouseManager.h">
+      <Filter>System\Mouse\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\EntityManager.h">
+      <Filter>System\Entity\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\EntityFunctionTemplates.h">
+      <Filter>System\Entity\BaseEntity\EntityFuntionTemplates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Organ.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\Organ\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Attachment.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\Organ\Drived\Attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Body.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\Organ\Drived\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\MovingEntity.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\EntityType.h">
+      <Filter>System\Entity\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Particle.h">
+      <Filter>System\Particle\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\ParticleGun.h">
+      <Filter>System\Particle\Drived\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\DataParticle.h">
+      <Filter>System\Particle\Drived\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Dirt.h">
+      <Filter>System\Particle\Drived\Dirt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Exhaust.h">
+      <Filter>System\Particle\Drived\Exhaust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Firework.h">
+      <Filter>System\Particle\Drived\FireWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Kindling.h">
+      <Filter>System\Particle\Drived\Kindling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Snow.h">
+      <Filter>System\Particle\Drived\Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\ParticleManager.h">
+      <Filter>System\Particle\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\OrganEntity.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\WaveManager.h">
+      <Filter>System\Sound\Wave\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\State.h">
+      <Filter>System\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\StateMachine.h">
+      <Filter>System\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\MessageTypes.h">
+      <Filter>System\State\MessageManager\Telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Telegram.h">
+      <Filter>System\State\MessageManager\Telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\SystemFrame.h">
+      <Filter>System\SystemFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Text.h">
+      <Filter>System\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\TextOwnedStates.h">
+      <Filter>System\Text\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\CrudeTImer.h">
+      <Filter>System\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\PrecisionTimer.h">
+      <Filter>System\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EngineOutline.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Tree%27s way\Side Engine Ver.0.8\Engine_Math&amp;Physics\Matrix4X4.h">
+      <Filter>Math &amp; Physics\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\SystemDefines.h">
+      <Filter>System\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\BasicEntity.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\DirectXEntity.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\LineEntity.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\LineEntity\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\SpreadEffect.h">
+      <Filter>System\Effects\Drived</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\SpreadParticle.h">
+      <Filter>System\Particle\Drived\Spread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\CheckWindow.h">
+      <Filter>Game Factor\UserInterface\CheckWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\CheckWindowOwnedStates.h">
+      <Filter>Game Factor\UserInterface\CheckWindow\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\DialogWindow.h">
+      <Filter>Game Factor\UserInterface\DialogWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\DialogWindowOwnedStates.h">
+      <Filter>Game Factor\UserInterface\DialogWindow\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\GameMenu.h">
+      <Filter>Game Factor\UserInterface\GameMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\GameMenuOwnedStates.h">
+      <Filter>Game Factor\UserInterface\GameMenu\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Gauge.h">
+      <Filter>Game Factor\UserInterface\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\GaugeOwnedStates.h">
+      <Filter>Game Factor\UserInterface\Gauge\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Growth.h">
+      <Filter>Game Factor\Contents\Growth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\MessageWindow.h">
+      <Filter>Game Factor\UserInterface\MessageWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\MessageWindowOwnedStates.h">
+      <Filter>Game Factor\UserInterface\MessageWindow\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\NumberArray.h">
+      <Filter>Game Factor\UserInterface\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\NumberOwnedStates.h">
+      <Filter>Game Factor\UserInterface\Number\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Number.h">
+      <Filter>Game Factor\UserInterface\Number\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Obstacle.h">
+      <Filter>Game Factor\Basic Composition\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Path.h">
+      <Filter>Game Factor\Basic Composition\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\TextOfGame.h">
+      <Filter>Game Factor\UserInterface\TextOfGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\TextOfGameOwnedStates.h">
+      <Filter>Game Factor\UserInterface\TextOfGame\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\UIManager.h">
+      <Filter>Game Factor\UserInterface\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Wall3D.h">
+      <Filter>Game Factor\Basic Composition\Wall3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\World.h">
+      <Filter>Game Factor\World\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\WorldManager.h">
+      <Filter>Game Factor\World\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Misc\WindowUtils.h">
+      <Filter>Misc\Utils\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Misc\StreamUtilityFunctions.h">
+      <Filter>Misc\Utils\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Misc\Utils.h">
+      <Filter>Misc\Utils\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Misc\DirectUtils.h">
+      <Filter>Misc\Utils\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Gravity.h">
+      <Filter>System\Gravity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Data Structures\MyString.h">
+      <Filter>Data Structures\MyString</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\PlanetEntity.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\PlanetEntity\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Leaf.h">
+      <Filter>System\Particle\Drived\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\BaseEntity.h">
+      <Filter>System\Entity\BaseEntity\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\GetSmaller.h">
+      <Filter>System\Particle\Drived\GetSmaller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\MP3Manager.h">
+      <Filter>System\Sound\MP3\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\Event.h">
+      <Filter>Logic\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\EventMainStates.h">
+      <Filter>Logic\Event\Composition\EventMainState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\EventSubStates.h">
+      <Filter>Logic\Event\Composition\EventSubStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\MessageManager.h">
+      <Filter>System\State\MessageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\PlanetEntityOwnedstates.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\PlanetEntity\Base\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\SectionOwnedStates.h">
+      <Filter>Logic\Section\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\Ending.h">
+      <Filter>Logic\Section\Composition\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\EndingOwnedStates.h">
+      <Filter>Logic\Section\Composition\Ending\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\SteeringParamLoader.h">
+      <Filter>System\Loader\Drived\Paramater\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\MapParamLoader.h">
+      <Filter>System\Loader\Drived\Paramater\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\BaseParamLoader.h">
+      <Filter>System\Loader\Drived\Paramater\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Data.h">
+      <Filter>Game Factor\Entity\Cell\Drived\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\DataOwnedStates.h">
+      <Filter>Game Factor\Entity\Cell\Drived\Data\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Vacine.h">
+      <Filter>Game Factor\Entity\Cell\Drived\Vacine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Virus.h">
+      <Filter>Game Factor\Entity\Cell\Drived\Virus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\VirusOwnedStates.h">
+      <Filter>Game Factor\Entity\Cell\Drived\Virus\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\VacineOwnedStates.h">
+      <Filter>Game Factor\Entity\Cell\Drived\Vacine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\SteeringBehavior.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\Vehicle\SteeringBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Byte.h">
+      <Filter>Game Factor\Contents\Byte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\ByteOwnedStates.h">
+      <Filter>Game Factor\Contents\Byte\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Controller.h">
+      <Filter>Game Factor\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Bus.h">
+      <Filter>Game Factor\Contents\Bus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\BusOwnedStates.h">
+      <Filter>Game Factor\Contents\Bus\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Wave.h">
+      <Filter>Game Factor\Contents\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\WaveOwnedStates.h">
+      <Filter>Game Factor\Contents\Wave\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Infection.h">
+      <Filter>Game Factor\Contents\Infection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\InfectionOwnedStates.h">
+      <Filter>Game Factor\Contents\Infection\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Vehicle.h">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\CellEntity.h">
+      <Filter>Game Factor\Entity\Cell\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\SecretData.h">
+      <Filter>Game Factor\Entity\SecretData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\SecretDataOwnedStates.h">
+      <Filter>Game Factor\Entity\SecretData\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Ability.h">
+      <Filter>Game Factor\UserInterface\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\AbilityOwnedStates.h">
+      <Filter>Game Factor\UserInterface\Ability\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\DataBomb.h">
+      <Filter>Game Factor\Contents\DataBomb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\BreakHeart.h">
+      <Filter>Game Factor\Contents\BreakHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\BreakHeartOwnedStates.h">
+      <Filter>Game Factor\Contents\BreakHeart\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\Arrow.h">
+      <Filter>Game Factor\UserInterface\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\OST.h">
+      <Filter>Logic\Section\Composition\OST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Timer.h">
+      <Filter>System\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\TimeManager.h">
+      <Filter>System\Time\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\Rank.h">
+      <Filter>Logic\Section\Composition\Rank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Logic\RankOwnedStates.h">
+      <Filter>Logic\Section\Composition\Rank\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\InputWindow.h">
+      <Filter>Game Factor\UserInterface\InputWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game_Factor\InputWindowOwnedStates.h">
+      <Filter>Game Factor\UserInterface\InputWindow\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_Misc\RuntimeCmp.h">
+      <Filter>Misc\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine_System\Log.h">
+      <Filter>System\Log</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Engine_Data Structures\Bitvector.cpp">
+      <Filter>Data Structures\Bitvector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Data Structures\HashFuntion.cpp">
+      <Filter>Data Structures\Hash Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\EngineManager.cpp">
+      <Filter>Engine Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\EventManager.cpp">
+      <Filter>Logic\Event\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\Credit.cpp">
+      <Filter>Logic\Section\Composition\Credit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\CreditOwnedStates.cpp">
+      <Filter>Logic\Section\Composition\Credit\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\Loading.cpp">
+      <Filter>Logic\Section\Composition\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\LoadingOwnedStates.cpp">
+      <Filter>Logic\Section\Composition\Loading\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\Logo.cpp">
+      <Filter>Logic\Section\Composition\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\LogoOwnedStates.cpp">
+      <Filter>Logic\Section\Composition\Logo\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\MainMenu.cpp">
+      <Filter>Logic\Section\Composition\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\MainMenuOwnedStates.cpp">
+      <Filter>Logic\Section\Composition\MainMenu\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Math&amp;Physics\MathManager.cpp">
+      <Filter>Math &amp; Physics\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Math&amp;Physics\Rectangle.cpp">
+      <Filter>Math &amp; Physics\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Math&amp;Physics\Vector2D.cpp">
+      <Filter>Math &amp; Physics\Vector2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Misc\Box3D.cpp">
+      <Filter>Misc\Box3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Misc\Cgdi.cpp">
+      <Filter>Misc\Cgdi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\App.cpp">
+      <Filter>System\App &amp; Wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Wnd.cpp">
+      <Filter>System\App &amp; Wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Camera.cpp">
+      <Filter>System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\CameraManager.cpp">
+      <Filter>System\Camera\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\CollisionManager.cpp">
+      <Filter>System\Collision\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\BaseEffect.cpp">
+      <Filter>System\Effects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\EffectManager.cpp">
+      <Filter>System\Effects\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\FileStream.cpp">
+      <Filter>System\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Information.cpp">
+      <Filter>System\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\FileLoaderBase.cpp">
+      <Filter>System\Loader\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\ScriptLoader.cpp">
+      <Filter>System\Loader\Drived\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\MouseManager.cpp">
+      <Filter>System\Mouse\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Organ.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\Organ\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Attachment.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\Organ\Drived\Attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Body.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\Organ\Drived\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Particle.cpp">
+      <Filter>System\Particle\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\ParticleGun.cpp">
+      <Filter>System\Particle\Drived\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\DataParticle.cpp">
+      <Filter>System\Particle\Drived\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Dirt.cpp">
+      <Filter>System\Particle\Drived\Dirt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Exhaust.cpp">
+      <Filter>System\Particle\Drived\Exhaust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Firework.cpp">
+      <Filter>System\Particle\Drived\FireWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Kindling.cpp">
+      <Filter>System\Particle\Drived\Kindling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Snow.cpp">
+      <Filter>System\Particle\Drived\Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\ParticleManager.cpp">
+      <Filter>System\Particle\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\OrganEntity.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\WaveManager.cpp">
+      <Filter>System\Sound\Wave\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\SystemFrame.cpp">
+      <Filter>System\SystemFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Text.cpp">
+      <Filter>System\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\TextOwnedStates.cpp">
+      <Filter>System\Text\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\PrecisionTimer.cpp">
+      <Filter>System\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\MovingEntity.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\BasicEntity.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\DirectXEntity.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\LineEntity.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\LineEntity\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\SpreadEffect.cpp">
+      <Filter>System\Effects\Drived</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\SpreadParticle.cpp">
+      <Filter>System\Particle\Drived\Spread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\CheckWindow.cpp">
+      <Filter>Game Factor\UserInterface\CheckWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\CheckWindowOwnedStates.cpp">
+      <Filter>Game Factor\UserInterface\CheckWindow\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\DialogWindow.cpp">
+      <Filter>Game Factor\UserInterface\DialogWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\DialogWindowOwnedStates.cpp">
+      <Filter>Game Factor\UserInterface\DialogWindow\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\GameMenu.cpp">
+      <Filter>Game Factor\UserInterface\GameMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\GameMenuOwnedStates.cpp">
+      <Filter>Game Factor\UserInterface\GameMenu\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Gauge.cpp">
+      <Filter>Game Factor\UserInterface\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\GaugeOwnedStates.cpp">
+      <Filter>Game Factor\UserInterface\Gauge\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Growth.cpp">
+      <Filter>Game Factor\Contents\Growth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\MessageWindow.cpp">
+      <Filter>Game Factor\UserInterface\MessageWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\MessageWindowOwnedStates.cpp">
+      <Filter>Game Factor\UserInterface\MessageWindow\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\NumberArray.cpp">
+      <Filter>Game Factor\UserInterface\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\NumberOwnedStates.cpp">
+      <Filter>Game Factor\UserInterface\Number\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Number.cpp">
+      <Filter>Game Factor\UserInterface\Number\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Obstacle.cpp">
+      <Filter>Game Factor\Basic Composition\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Path.cpp">
+      <Filter>Game Factor\Basic Composition\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\TextOfGame.cpp">
+      <Filter>Game Factor\UserInterface\TextOfGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\TextOfGameOwnedStates.cpp">
+      <Filter>Game Factor\UserInterface\TextOfGame\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\UIManager.cpp">
+      <Filter>Game Factor\UserInterface\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Wall3D.cpp">
+      <Filter>Game Factor\Basic Composition\Wall3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\World.cpp">
+      <Filter>Game Factor\World\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\WorldManager.cpp">
+      <Filter>Game Factor\World\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Misc\WindowUtils.cpp">
+      <Filter>Misc\Utils\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Misc\DirectUtils.cpp">
+      <Filter>Misc\Utils\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Gravity.cpp">
+      <Filter>System\Gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Data Structures\MyString.cpp">
+      <Filter>Data Structures\MyString</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\PlanetEntity.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\PlanetEntity\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Leaf.cpp">
+      <Filter>System\Particle\Drived\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\GetSmaller.cpp">
+      <Filter>System\Particle\Drived\GetSmaller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\MP3Manager.cpp">
+      <Filter>System\Sound\MP3\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\EventMainStates.cpp">
+      <Filter>Logic\Event\Composition\EventMainState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\EventSubStates.cpp">
+      <Filter>Logic\Event\Composition\EventSubStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\MessageManager.cpp">
+      <Filter>System\State\MessageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\PlanetEntityOwnedStates.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\PlanetEntity\Base\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\SectionOwnedStates.cpp">
+      <Filter>Logic\Section\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\Ending.cpp">
+      <Filter>Logic\Section\Composition\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\EndingOwnedStates.cpp">
+      <Filter>Logic\Section\Composition\Ending\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\EntityManager.cpp">
+      <Filter>System\Entity\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\SteeringParamLoader.cpp">
+      <Filter>System\Loader\Drived\Paramater\Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\MapParamLoader.cpp">
+      <Filter>System\Loader\Drived\Paramater\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\BaseParamLoader.cpp">
+      <Filter>System\Loader\Drived\Paramater\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Data.cpp">
+      <Filter>Game Factor\Entity\Cell\Drived\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\DataOwnedStates.cpp">
+      <Filter>Game Factor\Entity\Cell\Drived\Data\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Vacine.cpp">
+      <Filter>Game Factor\Entity\Cell\Drived\Vacine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Virus.cpp">
+      <Filter>Game Factor\Entity\Cell\Drived\Virus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\VirusOwnedStates.cpp">
+      <Filter>Game Factor\Entity\Cell\Drived\Virus\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\VacineOwnedStates.cpp">
+      <Filter>Game Factor\Entity\Cell\Drived\Vacine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\SteeringBehavior.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\Vehicle\SteeringBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Byte.cpp">
+      <Filter>Game Factor\Contents\Byte</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\ByteOwnedStates.cpp">
+      <Filter>Game Factor\Contents\Byte\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Controller.cpp">
+      <Filter>Game Factor\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Bus.cpp">
+      <Filter>Game Factor\Contents\Bus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\BusOwnedStates.cpp">
+      <Filter>Game Factor\Contents\Bus\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Wave.cpp">
+      <Filter>Game Factor\Contents\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\WaveOwnedStates.cpp">
+      <Filter>Game Factor\Contents\Wave\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Infection.cpp">
+      <Filter>Game Factor\Contents\Infection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\InfectionOwnedStates.cpp">
+      <Filter>Game Factor\Contents\Infection\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Vehicle.cpp">
+      <Filter>System\Entity\BaseEntity\Drived\DirectXEntity\Drived\BasicEntity\Drived\OrganEntity\Drived\MovingEntity\Drive\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\CellEntity.cpp">
+      <Filter>Game Factor\Entity\Cell\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\SecretData.cpp">
+      <Filter>Game Factor\Entity\SecretData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\SecretDataOwnedStates.cpp">
+      <Filter>Game Factor\Entity\SecretData\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Ability.cpp">
+      <Filter>Game Factor\UserInterface\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\AbilityOwnedStates.cpp">
+      <Filter>Game Factor\UserInterface\Ability\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\DataBomb.cpp">
+      <Filter>Game Factor\Contents\DataBomb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\BreakHeart.cpp">
+      <Filter>Game Factor\Contents\BreakHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\BreakHeartOwnedStates.cpp">
+      <Filter>Game Factor\Contents\BreakHeart\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\Arrow.cpp">
+      <Filter>Game Factor\UserInterface\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\OST.cpp">
+      <Filter>Logic\Section\Composition\OST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Timer.cpp">
+      <Filter>System\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\Rank.cpp">
+      <Filter>Logic\Section\Composition\Rank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\RankOwnedStates.cpp">
+      <Filter>Logic\Section\Composition\Rank\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\InputWindow.cpp">
+      <Filter>Game Factor\UserInterface\InputWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game_Factor\InputWindowOwnedStates.cpp">
+      <Filter>Game Factor\UserInterface\InputWindow\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_Logic\Section.cpp">
+      <Filter>Logic\Section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine_System\Log.cpp">
+      <Filter>System\Log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Side Engine.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor2.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="icon1.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+</Project>

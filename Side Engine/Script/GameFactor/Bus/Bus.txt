@@ -1,0 +1,7 @@
+EntityRadius 60
+       	    use	    Pos         Sca     Rot     Cen   Alpha		 Texture adress				 width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/Empty/Empty.dds			  60      60
+_attachment  4    0    0     0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/GameFactor/Bus/Hole.dds		 120     120	 0
+_attachment  	  0    0     0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/GameFactor/Bus/Wing1.dds		 200	 200	 1
+_attachment	  0    0     0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/GameFactor/Bus/Wing2.dds		 200	 200	 2
+_attachment	  0    0     0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/GameFactor/Bus/Wing3.dds		 200	 200	 3

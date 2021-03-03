@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D1DD831-6504-4A91-B110-17DC82B48A27}</ProjectGuid>
+    <RootNamespace>SideEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Include;C:\Program Files\Microsoft Visual Studio 10.0\VC\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Program Files\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Lib\x86;C:\Program Files\Microsoft Visual Studio 10.0\VC\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Program Files\Microsoft SDKs\Windows\v6.1\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2007%29\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>C:\Program Files\Microsoft SDKs\Windows\v6.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2007%29\Utilities\Bin\x86;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Tree%27s way\Side Engine Ver.0.8\Engine_Math&amp;Physics\Matrix4X4.h" />
+    <ClInclude Include="..\BaseHeader.h" />
+    <ClInclude Include="..\EngineOutline.h" />
+    <ClInclude Include="..\Engine_Data Structures\AQueue.h" />
+    <ClInclude Include="..\Engine_Data Structures\Array.h" />
+    <ClInclude Include="..\Engine_Data Structures\Array2D.h" />
+    <ClInclude Include="..\Engine_Data Structures\Array3D.h" />
+    <ClInclude Include="..\Engine_Data Structures\AStack.h" />
+    <ClInclude Include="..\Engine_Data Structures\BinarySearchTree.h" />
+    <ClInclude Include="..\Engine_Data Structures\BinaryTree.h" />
+    <ClInclude Include="..\Engine_Data Structures\Bitvector.h" />
+    <ClInclude Include="..\Engine_Data Structures\DLinkedList.h" />
+    <ClInclude Include="..\Engine_Data Structures\DListIterator.h" />
+    <ClInclude Include="..\Engine_Data Structures\DListNode.h" />
+    <ClInclude Include="..\Engine_Data Structures\Graph.h" />
+    <ClInclude Include="..\Engine_Data Structures\GraphArc.h" />
+    <ClInclude Include="..\Engine_Data Structures\GraphNode.h" />
+    <ClInclude Include="..\Engine_Data Structures\HashEntry.h" />
+    <ClInclude Include="..\Engine_Data Structures\HashFuntion.h" />
+    <ClInclude Include="..\Engine_Data Structures\HashTable.h" />
+    <ClInclude Include="..\Engine_Data Structures\Heap.h" />
+    <ClInclude Include="..\Engine_Data Structures\LQueue.h" />
+    <ClInclude Include="..\Engine_Data Structures\LStack.h" />
+    <ClInclude Include="..\Engine_Data Structures\SLinkedList.h" />
+    <ClInclude Include="..\Engine_Data Structures\SListIterator.h" />
+    <ClInclude Include="..\Engine_Data Structures\SListNode.h" />
+    <ClInclude Include="..\Engine_Data Structures\Tree.h" />
+    <ClInclude Include="..\Engine_Data Structures\TreeIterator.h" />
+    <ClInclude Include="..\Engine_Logic\Credit.h" />
+    <ClInclude Include="..\Engine_Logic\CreditOwnedStates.h" />
+    <ClInclude Include="..\Engine_Logic\Ending.h" />
+    <ClInclude Include="..\Engine_Logic\EndingOwnedStates.h" />
+    <ClInclude Include="..\Engine_Logic\Event.h" />
+    <ClInclude Include="..\Engine_Logic\EventMainStates.h" />
+    <ClInclude Include="..\Engine_Logic\EventManager.h" />
+    <ClInclude Include="..\Engine_Logic\EventSubStates.h" />
+    <ClInclude Include="..\Engine_Logic\Loading.h" />
+    <ClInclude Include="..\Engine_Logic\LoadingOwnedStates.h" />
+    <ClInclude Include="..\Engine_Logic\Logo.h" />
+    <ClInclude Include="..\Engine_Logic\LogoOwnedStates.h" />
+    <ClInclude Include="..\Engine_Logic\MainMenu.h" />
+    <ClInclude Include="..\Engine_Logic\MainMenuOwnedStates.h" />
+    <ClInclude Include="..\Engine_Logic\OST.h" />
+    <ClInclude Include="..\Engine_Logic\Rank.h" />
+    <ClInclude Include="..\Engine_Logic\RankOwnedStates.h" />
+    <ClInclude Include="..\Engine_Logic\Section.h" />
+    <ClInclude Include="..\Engine_Logic\SectionManager.h" />
+    <ClInclude Include="..\Engine_Logic\SectionOwnedStates.h" />
+    <ClInclude Include="..\Engine_Math&amp;Physics\Geometry.h" />
+    <ClInclude Include="..\Engine_Math&amp;Physics\MathManager.h" />
+    <ClInclude Include="..\Engine_Math&amp;Physics\Matrix3X3.h" />
+    <ClInclude Include="..\Engine_Math&amp;Physics\Rectangle.h" />
+    <ClInclude Include="..\Engine_Math&amp;Physics\Transformation.h" />
+    <ClInclude Include="..\Engine_Math&amp;Physics\Vector2D.h" />
+    <ClInclude Include="..\Engine_Misc\Box3D.h" />
+    <ClInclude Include="..\Engine_Misc\CellSpaceOfPartition.h" />
+    <ClInclude Include="..\Engine_Misc\Cgdi.h" />
+    <ClInclude Include="..\Engine_Misc\DirectUtils.h" />
+    <ClInclude Include="..\Engine_Misc\RuntimeCmp.h" />
+    <ClInclude Include="..\Engine_Misc\Smoother.h" />
+    <ClInclude Include="..\Engine_Misc\StreamUtilityFunctions.h" />
+    <ClInclude Include="..\Engine_Misc\Utils.h" />
+    <ClInclude Include="..\Engine_Misc\WindowUtils.h" />
+    <ClInclude Include="..\Engine_System\App.h" />
+    <ClInclude Include="..\Engine_System\Attachment.h" />
+    <ClInclude Include="..\Engine_System\BaseEffect.h" />
+    <ClInclude Include="..\Engine_System\BaseEntity.h" />
+    <ClInclude Include="..\Engine_System\BaseParamLoader.h" />
+    <ClInclude Include="..\Engine_System\BasicEntity.h" />
+    <ClInclude Include="..\Engine_System\Body.h" />
+    <ClInclude Include="..\Engine_System\Camera.h" />
+    <ClInclude Include="..\Engine_System\CameraManager.h" />
+    <ClInclude Include="..\Engine_System\CollisionManager.h" />
+    <ClInclude Include="..\Engine_System\CrudeTImer.h" />
+    <ClInclude Include="..\Engine_System\DataParticle.h" />
+    <ClInclude Include="..\Engine_System\DirectXEntity.h" />
+    <ClInclude Include="..\Engine_System\Dirt.h" />
+    <ClInclude Include="..\Engine_System\dsutil.h" />
+    <ClInclude Include="..\Engine_System\dxutil.h" />
+    <ClInclude Include="..\Engine_System\EffectManager.h" />
+    <ClInclude Include="..\Engine_System\EffectType.h" />
+    <ClInclude Include="..\Engine_System\EngineManager.h" />
+    <ClInclude Include="..\Engine_System\EntityFunctionTemplates.h" />
+    <ClInclude Include="..\Engine_System\EntityManager.h" />
+    <ClInclude Include="..\Engine_System\EntityType.h" />
+    <ClInclude Include="..\Engine_System\Exhaust.h" />
+    <ClInclude Include="..\Engine_System\FileLoaderBase.h" />
+    <ClInclude Include="..\Engine_System\FileStream.h" />
+    <ClInclude Include="..\Engine_System\Firework.h" />
+    <ClInclude Include="..\Engine_System\GetSmaller.h" />
+    <ClInclude Include="..\Engine_System\Gravity.h" />
+    <ClInclude Include="..\Engine_System\Information.h" />
+    <ClInclude Include="..\Engine_System\Kindling.h" />
+    <ClInclude Include="..\Engine_System\Leaf.h" />
+    <ClInclude Include="..\Engine_System\LineEntity.h" />
+    <ClInclude Include="..\Engine_System\Log.h" />
+    <ClInclude Include="..\Engine_System\MapParamLoader.h" />
+    <ClInclude Include="..\Engine_System\MessageManager.h" />
+    <ClInclude Include="..\Engine_System\MessageTypes.h" />
+    <ClInclude Include="..\Engine_System\MouseManager.h" />
+    <ClInclude Include="..\Engine_System\MovingEntity.h" />
+    <ClInclude Include="..\Engine_Data Structures\MyString.h" />
+    <ClInclude Include="..\Engine_System\MP3Manager.h" />
+    <ClInclude Include="..\Engine_System\Organ.h" />
+    <ClInclude Include="..\Engine_System\OrganEntity.h" />
+    <ClInclude Include="..\Engine_System\Particle.h" />
+    <ClInclude Include="..\Engine_System\ParticleGun.h" />
+    <ClInclude Include="..\Engine_System\ParticleManager.h" />
+    <ClInclude Include="..\Engine_System\PlanetEntityOwnedstates.h" />
+    <ClInclude Include="..\Engine_System\PrecisionTimer.h" />
+    <ClInclude Include="..\Engine_System\ScriptLoader.h" />
+    <ClInclude Include="..\Engine_System\Snow.h" />
+    <ClInclude Include="..\Engine_System\SpreadEffect.h" />
+    <ClInclude Include="..\Engine_System\SpreadParticle.h" />
+    <ClInclude Include="..\Engine_System\State.h" />
+    <ClInclude Include="..\Engine_System\StateMachine.h" />
+    <ClInclude Include="..\Engine_System\SteeringBehavior.h" />
+    <ClInclude Include="..\Engine_System\SteeringParamLoader.h" />
+    <ClInclude Include="..\Engine_System\SystemDefines.h" />
+    <ClInclude Include="..\Engine_System\SystemFrame.h" />
+    <ClInclude Include="..\Engine_System\Telegram.h" />
+    <ClInclude Include="..\Engine_System\Text.h" />
+    <ClInclude Include="..\Engine_System\TextOwnedStates.h" />
+    <ClInclude Include="..\Engine_System\TimeManager.h" />
+    <ClInclude Include="..\Engine_System\Timer.h" />
+    <ClInclude Include="..\Engine_System\Vehicle.h" />
+    <ClInclude Include="..\Engine_System\WaveManager.h" />
+    <ClInclude Include="..\Engine_System\Wnd.h" />
+    <ClInclude Include="..\Game_Factor\Ability.h" />
+    <ClInclude Include="..\Game_Factor\AbilityOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\Arrow.h" />
+    <ClInclude Include="..\Game_Factor\BreakHeart.h" />
+    <ClInclude Include="..\Game_Factor\BreakHeartOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\Bus.h" />
+    <ClInclude Include="..\Game_Factor\BusOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\Byte.h" />
+    <ClInclude Include="..\Game_Factor\ByteOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\CellEntity.h" />
+    <ClInclude Include="..\Game_Factor\CheckWindow.h" />
+    <ClInclude Include="..\Game_Factor\CheckWindowOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\Controller.h" />
+    <ClInclude Include="..\Game_Factor\Data.h" />
+    <ClInclude Include="..\Game_Factor\DataBomb.h" />
+    <ClInclude Include="..\Game_Factor\DataOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\DialogWindow.h" />
+    <ClInclude Include="..\Game_Factor\DialogWindowOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\GameMenu.h" />
+    <ClInclude Include="..\Game_Factor\GameMenuOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\Gauge.h" />
+    <ClInclude Include="..\Game_Factor\GaugeOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\Growth.h" />
+    <ClInclude Include="..\Game_Factor\Infection.h" />
+    <ClInclude Include="..\Game_Factor\InfectionOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\InputWindow.h" />
+    <ClInclude Include="..\Game_Factor\InputWindowOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\MessageWindow.h" />
+    <ClInclude Include="..\Game_Factor\MessageWindowOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\Number.h" />
+    <ClInclude Include="..\Game_Factor\NumberArray.h" />
+    <ClInclude Include="..\Game_Factor\NumberOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\Obstacle.h" />
+    <ClInclude Include="..\Game_Factor\Path.h" />
+    <ClInclude Include="..\Engine_System\PlanetEntity.h" />
+    <ClInclude Include="..\Game_Factor\SecretData.h" />
+    <ClInclude Include="..\Game_Factor\SecretDataOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\TextOfGame.h" />
+    <ClInclude Include="..\Game_Factor\TextOfGameOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\UIManager.h" />
+    <ClInclude Include="..\Game_Factor\Vacine.h" />
+    <ClInclude Include="..\Game_Factor\VacineOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\Virus.h" />
+    <ClInclude Include="..\Game_Factor\VirusOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\Wall3D.h" />
+    <ClInclude Include="..\Game_Factor\Wave.h" />
+    <ClInclude Include="..\Game_Factor\WaveOwnedStates.h" />
+    <ClInclude Include="..\Game_Factor\World.h" />
+    <ClInclude Include="..\Game_Factor\WorldManager.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Engine_Data Structures\Bitvector.cpp" />
+    <ClCompile Include="..\Engine_Data Structures\HashFuntion.cpp" />
+    <ClCompile Include="..\Engine_Logic\Credit.cpp" />
+    <ClCompile Include="..\Engine_Logic\CreditOwnedStates.cpp" />
+    <ClCompile Include="..\Engine_Logic\Ending.cpp" />
+    <ClCompile Include="..\Engine_Logic\EndingOwnedStates.cpp" />
+    <ClCompile Include="..\Engine_Logic\EventMainStates.cpp" />
+    <ClCompile Include="..\Engine_Logic\EventManager.cpp" />
+    <ClCompile Include="..\Engine_Logic\EventSubStates.cpp" />
+    <ClCompile Include="..\Engine_Logic\Loading.cpp" />
+    <ClCompile Include="..\Engine_Logic\LoadingOwnedStates.cpp" />
+    <ClCompile Include="..\Engine_Logic\Logo.cpp" />
+    <ClCompile Include="..\Engine_Logic\LogoOwnedStates.cpp" />
+    <ClCompile Include="..\Engine_Logic\MainMenu.cpp" />
+    <ClCompile Include="..\Engine_Logic\MainMenuOwnedStates.cpp" />
+    <ClCompile Include="..\Engine_Logic\OST.cpp" />
+    <ClCompile Include="..\Engine_Logic\Rank.cpp" />
+    <ClCompile Include="..\Engine_Logic\RankOwnedStates.cpp" />
+    <ClCompile Include="..\Engine_Logic\Section.cpp" />
+    <ClCompile Include="..\Engine_Logic\SectionOwnedStates.cpp" />
+    <ClCompile Include="..\Engine_Math&amp;Physics\MathManager.cpp" />
+    <ClCompile Include="..\Engine_Math&amp;Physics\Rectangle.cpp" />
+    <ClCompile Include="..\Engine_Math&amp;Physics\Vector2D.cpp" />
+    <ClCompile Include="..\Engine_Misc\Box3D.cpp" />
+    <ClCompile Include="..\Engine_Misc\Cgdi.cpp" />
+    <ClCompile Include="..\Engine_Misc\DirectUtils.cpp" />
+    <ClCompile Include="..\Engine_Misc\WindowUtils.cpp" />
+    <ClCompile Include="..\Engine_System\App.cpp" />
+    <ClCompile Include="..\Engine_System\Attachment.cpp" />
+    <ClCompile Include="..\Engine_System\BaseEffect.cpp" />
+    <ClCompile Include="..\Engine_System\BaseParamLoader.cpp" />
+    <ClCompile Include="..\Engine_System\BasicEntity.cpp" />
+    <ClCompile Include="..\Engine_System\Body.cpp" />
+    <ClCompile Include="..\Engine_System\Camera.cpp" />
+    <ClCompile Include="..\Engine_System\CameraManager.cpp" />
+    <ClCompile Include="..\Engine_System\CollisionManager.cpp" />
+    <ClCompile Include="..\Engine_System\DataParticle.cpp" />
+    <ClCompile Include="..\Engine_System\DirectXEntity.cpp" />
+    <ClCompile Include="..\Engine_System\Dirt.cpp" />
+    <ClCompile Include="..\Engine_System\EffectManager.cpp" />
+    <ClCompile Include="..\Engine_System\EngineManager.cpp" />
+    <ClCompile Include="..\Engine_System\EntityManager.cpp" />
+    <ClCompile Include="..\Engine_System\Exhaust.cpp" />
+    <ClCompile Include="..\Engine_System\FileLoaderBase.cpp" />
+    <ClCompile Include="..\Engine_System\FileStream.cpp" />
+    <ClCompile Include="..\Engine_System\Firework.cpp" />
+    <ClCompile Include="..\Engine_System\GetSmaller.cpp" />
+    <ClCompile Include="..\Engine_System\Gravity.cpp" />
+    <ClCompile Include="..\Engine_System\Information.cpp" />
+    <ClCompile Include="..\Engine_System\Kindling.cpp" />
+    <ClCompile Include="..\Engine_System\Leaf.cpp" />
+    <ClCompile Include="..\Engine_System\LineEntity.cpp" />
+    <ClCompile Include="..\Engine_System\Log.cpp" />
+    <ClCompile Include="..\Engine_System\MapParamLoader.cpp" />
+    <ClCompile Include="..\Engine_System\MessageManager.cpp" />
+    <ClCompile Include="..\Engine_System\MouseManager.cpp" />
+    <ClCompile Include="..\Engine_System\MovingEntity.cpp" />
+    <ClCompile Include="..\Engine_Data Structures\MyString.cpp" />
+    <ClCompile Include="..\Engine_System\MP3Manager.cpp" />
+    <ClCompile Include="..\Engine_System\Organ.cpp" />
+    <ClCompile Include="..\Engine_System\OrganEntity.cpp" />
+    <ClCompile Include="..\Engine_System\Particle.cpp" />
+    <ClCompile Include="..\Engine_System\ParticleGun.cpp" />
+    <ClCompile Include="..\Engine_System\ParticleManager.cpp" />
+    <ClCompile Include="..\Engine_System\PlanetEntityOwnedStates.cpp" />
+    <ClCompile Include="..\Engine_System\PrecisionTimer.cpp" />
+    <ClCompile Include="..\Engine_System\ScriptLoader.cpp" />
+    <ClCompile Include="..\Engine_System\Snow.cpp" />
+    <ClCompile Include="..\Engine_System\SpreadEffect.cpp" />
+    <ClCompile Include="..\Engine_System\SpreadParticle.cpp" />
+    <ClCompile Include="..\Engine_System\SteeringBehavior.cpp" />
+    <ClCompile Include="..\Engine_System\SteeringParamLoader.cpp" />
+    <ClCompile Include="..\Engine_System\SystemFrame.cpp" />
+    <ClCompile Include="..\Engine_System\Text.cpp" />
+    <ClCompile Include="..\Engine_System\TextOwnedStates.cpp" />
+    <ClCompile Include="..\Engine_System\Timer.cpp" />
+    <ClCompile Include="..\Engine_System\Vehicle.cpp" />
+    <ClCompile Include="..\Engine_System\WaveManager.cpp" />
+    <ClCompile Include="..\Engine_System\Wnd.cpp" />
+    <ClCompile Include="..\Game_Factor\Ability.cpp" />
+    <ClCompile Include="..\Game_Factor\AbilityOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\Arrow.cpp" />
+    <ClCompile Include="..\Game_Factor\BreakHeart.cpp" />
+    <ClCompile Include="..\Game_Factor\BreakHeartOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\Bus.cpp" />
+    <ClCompile Include="..\Game_Factor\BusOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\Byte.cpp" />
+    <ClCompile Include="..\Game_Factor\ByteOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\CellEntity.cpp" />
+    <ClCompile Include="..\Game_Factor\CheckWindow.cpp" />
+    <ClCompile Include="..\Game_Factor\CheckWindowOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\Controller.cpp" />
+    <ClCompile Include="..\Game_Factor\Data.cpp" />
+    <ClCompile Include="..\Game_Factor\DataBomb.cpp" />
+    <ClCompile Include="..\Game_Factor\DataOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\DialogWindow.cpp" />
+    <ClCompile Include="..\Game_Factor\DialogWindowOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\GameMenu.cpp" />
+    <ClCompile Include="..\Game_Factor\GameMenuOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\Gauge.cpp" />
+    <ClCompile Include="..\Game_Factor\GaugeOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\Growth.cpp" />
+    <ClCompile Include="..\Game_Factor\Infection.cpp" />
+    <ClCompile Include="..\Game_Factor\InfectionOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\InputWindow.cpp" />
+    <ClCompile Include="..\Game_Factor\InputWindowOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\MessageWindow.cpp" />
+    <ClCompile Include="..\Game_Factor\MessageWindowOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\Number.cpp" />
+    <ClCompile Include="..\Game_Factor\NumberArray.cpp" />
+    <ClCompile Include="..\Game_Factor\NumberOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\Obstacle.cpp" />
+    <ClCompile Include="..\Game_Factor\Path.cpp" />
+    <ClCompile Include="..\Engine_System\PlanetEntity.cpp" />
+    <ClCompile Include="..\Game_Factor\SecretData.cpp" />
+    <ClCompile Include="..\Game_Factor\SecretDataOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\TextOfGame.cpp" />
+    <ClCompile Include="..\Game_Factor\TextOfGameOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\UIManager.cpp" />
+    <ClCompile Include="..\Game_Factor\Vacine.cpp" />
+    <ClCompile Include="..\Game_Factor\VacineOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\Virus.cpp" />
+    <ClCompile Include="..\Game_Factor\VirusOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\Wall3D.cpp" />
+    <ClCompile Include="..\Game_Factor\Wave.cpp" />
+    <ClCompile Include="..\Game_Factor\WaveOwnedStates.cpp" />
+    <ClCompile Include="..\Game_Factor\World.cpp" />
+    <ClCompile Include="..\Game_Factor\WorldManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Side Engine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor2.cur" />
+    <None Include="icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

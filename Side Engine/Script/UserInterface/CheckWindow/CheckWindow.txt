@@ -1,0 +1,6 @@
+EntityRadius 0
+       	    use	      Pos       Sca    Rot     Cen    Alpha	Texture adress(Right)	     				width  height  Type
+_body 	     1     0    0   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/CheckWindow/Window.dds		 380    230
+_attachment  3   -70  -50   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/CheckWindow/Yes.dds		 120     70	0
+_attachment       70  -50   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/CheckWindow/No.dds		 120     70	1
+_attachment        0  -50   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/CheckWindow/Ok.dds		 120     70	2

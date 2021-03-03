@@ -1,0 +1,13 @@
+EntityRadius 40
+       	    use	      Pos       Sca    Rot     Cen    Alpha	Texture adress(Right)	     			width  height  Type
+_body 	     1     0    0   0  1 1 1  0 0 0  0   0 0  1.0	./Image/Empty/Empty.dds			    	  1      1
+_attachment 10 	   0    0   0  1 1 1  0 0 0  0   0 0  1.0       ./Image/UserInterface/Number/Zero.dds		 44     48	0
+_attachment  	   0    0   0  1 1 1  0 0 0  0   0 0  1.0       ./Image/UserInterface/Number/One.dds		 28     48	1
+_attachment    	   0    0   0  1 1 1  0 0 0  0   0 0  1.0       ./Image/UserInterface/Number/Two.dds		 38     48	2
+_attachment    	   0    0   0  1 1 1  0 0 0  0   0 0  1.0       ./Image/UserInterface/Number/Three.dds		 36     48	3
+_attachment    	   0    0   0  1 1 1  0 0 0  0   0 0  1.0       ./Image/UserInterface/Number/Four.dds		 40     48	4
+_attachment    	   0    0   0  1 1 1  0 0 0  0   0 0  1.0       ./Image/UserInterface/Number/Five.dds		 38     48	5
+_attachment    	   0    0   0  1 1 1  0 0 0  0   0 0  1.0       ./Image/UserInterface/Number/Six.dds		 40     48	6
+_attachment    	   0    0   0  1 1 1  0 0 0  0   0 0  1.0       ./Image/UserInterface/Number/Seven.dds		 36     48	7
+_attachment    	   0    0   0  1 1 1  0 0 0  0   0 0  1.0       ./Image/UserInterface/Number/Eight.dds		 38     48	8
+_attachment    	   0    0   0  1 1 1  0 0 0  0   0 0  1.0       ./Image/UserInterface/Number/Nine.dds		 40     48	9

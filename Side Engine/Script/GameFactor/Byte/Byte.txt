@@ -1,0 +1,4 @@
+EntityRadius 35
+       	    use	    Pos         Sca    Rot     Cen    Alpha		 Texture adress				 width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/GameFactor/Byte/Byte.dds		  30     30
+_attachment  0

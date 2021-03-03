@@ -1,0 +1,4 @@
+EntityRadius 50
+       	    use	    Pos         Sca    Rot     Cen    Alpha		 Texture adress				 width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/GameWorld/Obstacle.dds		  100    100
+_attachment  0

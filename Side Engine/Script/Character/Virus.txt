@@ -1,0 +1,12 @@
+EntityRadius	70.0
+       	    use	    Pos             Sca    Rot     Cen    Alpha		 Texture adress					 width  height  Type
+_body 	     0    0    0     0   1   1 1  0 0 0  0   0 0  1.0	   ./Image/Empty/Empty.dds       	 		   1      1
+_attachment  9   -5  -50     0   1   1 1  0 0 0  0   0 0  0.2	   ./Image/Character/Virus/TailType1.dds	         190    250      0 (1)
+_attachment       0  -55     0   1   1 1  0 0 0  0   0 0  0.2	   ./Image/Character/Virus/TailType2.dds	         160    160      1 (2)
+_attachment       0    0     0   1   1 1  0 0 0  0   0 0  0.5	   ./Image/Character/Virus/CytoplasmType1.dds 	  	 280    280	 2 (1)
+_attachment  	  0    0     0   1   1 1  0 0 0  0   0 0  0.5	   ./Image/Character/Virus/CytoplasmType2.dds       	 280    280      3 (2)
+_attachment  	  0    0     0   1   1 1  0 0 0  0   0 0  0.5	   ./Image/Character/Virus/CytoplasmType3.dds        	 280    280      4 (3)
+_attachment  	  0    0     0   1   1 1  0 0 0  0   0 0  0.9	   ./Image/Character/Virus/Core.dds 		  	 150    150      5 (CORE)
+_attachment  	 17    3     0   1   1 1  0 0 0  0   0 0  1.0	   ./Image/Character/Virus/MiniCoreType1.dds 	  	  40     40      6 (1)
+_attachment  	  0   20     0   1   1 1  0 0 0  0   0 0  1.0	   ./Image/Character/Virus/MiniCoreType1.dds 	 	  40     40      7 (1)
+_attachment  	 -5   -8     0   1   1 1  0 0 0  0   0 0  1.0	   ./Image/Character/Virus/MiniCoreType1.dds 	  	  40     40      8 (1)
